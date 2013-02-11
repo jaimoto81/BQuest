@@ -125,8 +125,10 @@
 		totalEntries += 20;
 
 		//var feedurl = "http://feeds.feedburner.com/TechCrunch/";
-		var feedurl = "http://www.portafolio.com.co/negocios/rss.xml";
-		
+		//var feedurl = "http://www.portafolio.com.co/negocios/rss.xml";
+		//http://www.elpais.com.co/elpais/servicio/rss
+		//http://www.lasillavacia.com/?q=rss.xml
+		var feedurl = "http://www.lasillavacia.com/?q=rss.xml";
 		var feed = new google.feeds.Feed(feedurl);
 
 		feed.includeHistoricalEntries();
